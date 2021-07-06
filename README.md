@@ -4,4 +4,4 @@ Streamlit app for predicting flower species using the UCI iris dataset. Used sep
 
 
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/73608018/124672587-1c5c1b80-ded9-11eb-874c-4f71712a362a.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/73608018/124674361-6397db80-dedc-11eb-9545-5c943473c585.gif)
