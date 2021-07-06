@@ -11,13 +11,13 @@ from sklearn.metrics import confusion_matrix
 import seaborn as sb
 
 st.title("Iris Flower Predictor")
-st.sidebar.header("Enter Your Data: ")
+st.header("Enter Your Data: ")
 
 def user_input():
-    sepal_length =st.sidebar.slider('Sepal Length',0.0,10.0,5.0)
-    sepal_width = st.sidebar.slider('Sepal Width',0.0,10.0,5.0)
-    petal_length =st.sidebar.slider('Petal Length',0.0,10.0,5.0)
-    petal_width =st.sidebar.slider('Petal Width',0.0,10.0,5.0)
+    sepal_length =st.slider('Sepal Length',0.0,10.0,5.0)
+    sepal_width = st.slider('Sepal Width',0.0,10.0,5.0)
+    petal_length =st.slider('Petal Length',0.0,10.0,5.0)
+    petal_width =st.slider('Petal Width',0.0,10.0,5.0)
     data = {"Sepal Length":sepal_length,
     "Sepal Width": sepal_width,
     "Petal Length": petal_length,
@@ -39,8 +39,6 @@ predicted_flower = model.predict(df)
 pred_values = model.predict(X)
 score = str(model.score(X,Y)*100)
 
-st.subheader("Class Labels with Index")
-st.write(flowers.target_names)
 
 st.subheader("Predicted Flower:")
 st.write(pd.DataFrame(flowers.target_names[predicted_flower]))
