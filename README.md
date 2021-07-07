@@ -1,5 +1,5 @@
 # iris_predictor
-Streamlit app for predicting flower species using the UCI iris dataset. Used sepal and petal lengths and widths to predict flower species using multiclass logistic regression.
+Streamlit app for predicting flower species using the UCI iris dataset. Used sepal and petal lengths and widths to predict flower species using Sklearn's multiclass logistic regression.
 
 
 
